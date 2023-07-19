@@ -12,8 +12,9 @@ export default defineNuxtConfig({
       title: 'TruthGPT',
       meta,
       link,
-      // script,
+      script,
       bodyAttrs: { id: 'page-top'},
     },
   },
+  css: ['/assets/styles/main.scss']
 })

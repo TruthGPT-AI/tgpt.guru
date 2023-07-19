@@ -13,9 +13,4 @@ export default [
     href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" 
   },
   ...font,
-  { 
-    // Bootstrap icons
-    rel: "stylesheet", 
-    href: "/assets/styles/main.scss" 
-  },
 ]

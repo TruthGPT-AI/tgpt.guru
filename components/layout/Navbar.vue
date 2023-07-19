@@ -39,6 +39,8 @@
       </div>
     </div>
   </nav>
+
+  <LayoutFeedbackModal />
 </template>
 
 <style scoped>
