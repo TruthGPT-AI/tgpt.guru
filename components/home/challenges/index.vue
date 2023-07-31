@@ -1,7 +1,7 @@
 <template>
   <section id="challenges" class="position-relative">
     <div class="position-absolute left-0 z-0 decor-wrapper">
-      <nuxt-img 
+      <img 
         src="/mid-left-decor.png"
         class="mid-left-decor"
       />

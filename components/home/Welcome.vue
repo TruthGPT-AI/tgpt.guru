@@ -1,7 +1,7 @@
 <template>
   <section id="welcome" class="masthead position-relative"> 
     <div class="position-absolute top-0 left-0 w-75 z-1">
-      <nuxt-img 
+      <img 
         src="/top-left-decor.png"
         class="top-left-decor"
       />

@@ -8,7 +8,7 @@
             <div class="speech-bubble">
               <span>Welcome to the frontier of cognitive technology.</span>
             </div>
-            <nuxt-img class="img-fluid" src="/bot.png" alt="..." />
+            <img class="img-fluid" src="/bot.png" alt="..." />
           </div>
         </div>
         <div class="col-12 col-lg-5 order-1 order-sm-2">
