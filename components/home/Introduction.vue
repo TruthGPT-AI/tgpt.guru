@@ -1,14 +1,14 @@
 <template>
   <!-- Basic features section-->
   <section id="introduction">
-    <div class="container px-5">
+    <div class="container px-4 px-md-5">
       <div class="row gx-0 gy-4 align-items-center justify-content-center justify-content-lg-between">
         <div class="col-sm-8 col-md-6 order-2 order-sm-1">
           <div class="position-relative ps-lg-5">
             <div class="speech-bubble">
               <span>Welcome to the frontier of cognitive technology.</span>
             </div>
-            <img class="img-fluid" src="/bot.png" alt="..." />
+            <img class="img-fluid" src="/bot.png" alt="bot" />
           </div>
         </div>
         <div class="col-12 col-lg-5 order-1 order-sm-2">
@@ -79,9 +79,15 @@
 @media (max-width: 1024px) {
   .speech-bubble {
     height: 80px;
-    width: 220px;
+    width: 200px;
     left: 140px;
     top: -70px;
+  }
+  .speech-bubble::after {
+    bottom: 20px;
+    left: 25%;
+    border-right-width: 30px;
+    border-top-width: 30px;
   }
 }
 </style>

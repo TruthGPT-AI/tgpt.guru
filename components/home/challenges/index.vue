@@ -4,6 +4,7 @@
       <img 
         src="/mid-left-decor.png"
         class="mid-left-decor"
+        alt="mid left decoration"
       />
     </div>
     <div class="container position-relative z-1">
@@ -364,6 +365,8 @@ section#challenges {
         margin-bottom: 1.4rem;
 
         .badge {
+          text-align: start;
+          max-width: 100%;
           background: $secondary;
           padding: 4px 8px;
           border-radius: 3px;
@@ -403,6 +406,13 @@ section#challenges {
         background: $last !important;
       }
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline-body {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
   }
 }
 </style>

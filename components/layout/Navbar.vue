@@ -2,18 +2,13 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
     <div class="container px-md-5">
       <a class="navbar-brand fw-bold" href="#page-top">
-        <img 
-          src="/logo-blue.png" 
-          width="183px"
-          height="35px"
-        />
+        <img src="/logo-blue.png" alt="Truth GPT logo"/>
       </a>
       <button 
         class="navbar-toggler text-white" type="button" 
         data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
       >
-        Menu
         <i class="bi-list"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -58,17 +53,24 @@
   padding-bottom: 1rem;
   background-color: #09041c;
 }
+
+#mainNav img {
+  width: 183px;
+  height: 35px;
+}
+
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:active {
   color: #2937f0;
 }
-/* #mainNav .navbar-toggler {
-  font-size: 0.875rem;
-  padding: 0.75rem 1rem;
-  color: #212529;
-} */
+#mainNav .navbar-toggler {
+  font-size: 1.8rem;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   color: var(--text-primary-color);
 }
@@ -77,6 +79,13 @@
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #2937f0;
+}
+
+@media (max-width: 767px) {
+  #mainNav img {
+    width: 140px;
+    height: 26px;
+  }
 }
 
 </style>

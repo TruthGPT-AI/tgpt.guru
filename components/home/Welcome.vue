@@ -4,10 +4,11 @@
       <img 
         src="/top-left-decor.png"
         class="top-left-decor"
+        alt="top left decoration"
       />
     </div>
 
-    <div class="container px-5">
+    <div class="container px-3 px-md-5">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-6">
           <!-- Mashead text and app badges-->
@@ -19,7 +20,7 @@
               Your Personalized, Sovereign AI in the Web 3.0 Era
             </p>
 
-            <a class="btn btn-outline-primary py-2 pe-5 ">
+            <a class="btn btn-outline-primary py-2 pe-md-5">
               Getting started today!
               <i class="bi bi-arrow-right"></i>
             </a>
