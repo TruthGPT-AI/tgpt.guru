@@ -16,5 +16,8 @@ export default defineNuxtConfig({
       bodyAttrs: { id: 'page-top'},
     },
   },
-  css: ['/assets/styles/main.scss']
+  css: ['/assets/styles/main.scss'],
+  modules: [
+    '@nuxt/image',
+  ]
 })

@@ -1,10 +1,11 @@
 <template>
   <div>
+    <HomeWelcome />
     <HomeIntroduction />
-    <HomeTestimonial />
-    <HomeAppFeatures />
-    <HomeBasicFeatures />
-    <HomeCallToAction />
+    <HomeFeatures />
+    <HomeChallenges />
     <HomeDownload />
+    <!-- <HomeTestimonial /> -->
+    <!-- <HomeCallToAction /> -->
   </div>
 </template>
