@@ -3,16 +3,7 @@
     <div class="card">
       <slot></slot>
       <div class="layers">
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
+        <div v-for="index in Array(15)" class="layer"></div>
       </div>
     </div>
   </div>
@@ -30,7 +21,7 @@
   position: relative;
   width: 320px;
   height: 320px;
-  padding: 32px 24px;
+  padding: 1.5rem 0;
   color: #fff;
   transform: rotateY(40deg) rotateX(0);
   transform-style: preserve-3d;
@@ -60,9 +51,9 @@
   transform: translateZ(var(--tz));
   box-shadow: 0 0 0.5em #000d inset;
   
-  @for $i from 0 to 10 {
+  @for $i from 0 to 15 {
     &:nth-child(#{$i + 1}) {
-      --tz: #{$i * -4}px;
+      --tz: #{$i * - 2}px;
     }
   }
   

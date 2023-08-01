@@ -16,11 +16,11 @@
             <h1 class="display-1 lh-1 mb-3">
               Welcome to TruthGPT
             </h1>
-            <p class="lead fw-normal text-muted mb-5 text-center text-md-start">
+            <p class="lead fw-normal text-muted mb-5 text-center text-lg-start" lang="en">
               Your Personalized, Sovereign AI in the Web 3.0 Era
             </p>
 
-            <a class="btn btn-outline-primary py-2 pe-md-5">
+            <a class="btn btn-outline-primary py-2 pe-lg-5">
               Getting started today!
               <i class="bi bi-arrow-right"></i>
             </a>

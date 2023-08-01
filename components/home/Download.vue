@@ -6,7 +6,7 @@
         Join Us on This Exciting Journey
       </h2>
       <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-        <p class="px-md-5 lead fw-normal text-muted mb-5 mb-lg-0">
+        <p class="px-md-5 lead fw-normal text-muted mb-5 mb-lg-0" lang="en">
           TruthGPT represents a paradigm shift in personalized AI
           and a unique investment opportunity in the Web 3.0 era. We're at the 
           cusp of revolutionizing our digital interactions. Join us in pioneering 

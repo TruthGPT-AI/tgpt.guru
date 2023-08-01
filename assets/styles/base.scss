@@ -3,9 +3,16 @@ body {
   width: 100vw;
 }
 
-p {
+p, span, a, button, input, select {
+  font-family: var(--sans);
+}
+
+p:not(.text-center), span {
   text-align: justify;
-  word-spacing: -2px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--serif);
 }
 
 aside, section {

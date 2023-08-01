@@ -7,7 +7,7 @@
       <h4 class="timeline-title">
         <span class="badge">Data Sovereignty and Security</span>
       </h4>
-      <p>
+      <p lang="en">
         Your data privacy and security are paramount. While blockchain
         provides part of the solution, we're committed to exploring further
         measures to safeguard your data sovereignty.
@@ -20,7 +20,7 @@
       <h4 class="timeline-title">
         <span class="badge">Ownership and Control</span>
       </h4>
-      <p>
+      <p lang="en">
         At TruthGPT, we believe in your absolute right over your digital
         twin. We're establishing clear guidelines to ensure you have the final
         say on access, alteration, and deletion rights to your data.
@@ -33,7 +33,7 @@
       <h4 class="timeline-title">
         <span class="badge">Authenticity and Misuse</span>
       </h4>
-      <p>
+      <p lang="en">
         We're dedicated to preventing misuse of our powerful system, whether
         it's creating unauthorized digital twins or impersonating others.
       </p>

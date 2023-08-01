@@ -1,9 +1,16 @@
 :root {
+  // Fonts
+  --sans: "Soehne", system-ui, -apple-system, Helvetica Neue, Arial, sans-serif;
+  --serif: "Signifier", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+
+  // Color
   --primary-bg-color: #08031a;
   --text-primary-color: #edeced;
   --highlight-color: #52afdf;
   --gradient-bg: linear-gradient(135deg,  #2ab8ff, #dc2582);
   --gradient-bg-secondary: linear-gradient(135deg,  #3633ee, #971ce3);
+
+  // Overwrite bootstrap styles
   --bs-heading-color: var(--text-primary-color);
   --bs-secondary-color: var(--text-primary-color);
 }

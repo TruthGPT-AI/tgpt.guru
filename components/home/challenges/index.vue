@@ -9,17 +9,17 @@
     </div>
     <div class="container position-relative z-1">
       <div class="row gx-5">
-        <div class="col-12 col-sm-5">
+        <div class="col-12 col-xl-5">
           <div class="d-flex flex-column justify-content-center h-100">
-            <h2 class="text-center text-md-start display-5 lh-3">
+            <h2 class="text-center text-xl-start display-5 lh-3">
               Navigating Challenges Together
             </h2>
-            <p class="text-center text-md-start lead fw-normal text-muted mb-5 px-4 px-md-0">
+            <p class="text-center text-xl-start lead fw-normal text-muted mb-5 px-4 px-md-0" lang="en">
               In our pursuit of this cognitive revolution, we acknowledge and address significant challenges:
             </p>
           </div>
         </div>
-        <div class="col-12 col-sm-7">
+        <div class="col-12 col-xl-7">
           <HomeChallengesChallengeList />>
         </div>
       </div>
@@ -61,7 +61,7 @@ section#challenges {
 
 @media (min-width: 768px) {
   .decor-wrapper {
-    top: 25%;
+    // top: 25%;
     width: 75%
   }
 
@@ -70,7 +70,7 @@ section#challenges {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .decor-wrapper {
     top: 15%;
   }
