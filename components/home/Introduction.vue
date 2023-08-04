@@ -71,6 +71,10 @@
   transform: rotateY(20deg) rotateX(0);
   transform-style: preserve-3d;
   transition: transform 1s;
+
+  -webkit-transform: rotateY(20deg) rotateX(0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 1s;
 }
 
 .speech-bubble:after {
@@ -93,6 +97,8 @@
   transform-style: preserve-3d;
   z-index: -1;
   background-color: transparent;
+
+  -webkit-transform-style: preserve-3d;
 }
 
 .layer {
@@ -103,6 +109,9 @@
   background-color: var(--bi);
   transform: translateZ(var(--tz));
   box-shadow: 0 0 0.5em #000d inset;
+
+  -webkit-transform: translateZ(var(--tz));
+
   
   @for $i from 0 to 15 {
     &:nth-child(#{$i + 1}) {

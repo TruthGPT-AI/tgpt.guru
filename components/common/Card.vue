@@ -13,6 +13,8 @@
 .card-container {
   display: flex;
   perspective: 50em;
+  -webkit-perspective: 50em;
+  -ms-perspective: 50em;
   --bi: var(--gradient-bg);
 }
 
@@ -27,9 +29,14 @@
   transform-style: preserve-3d;
   transition: transform 1s;
   background-color: transparent;
+
+  -webkit-transform: rotateY(40deg) rotateX(0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 1s;
   
   &:hover {
     transform: rotateY(0) rotateX(0);
+    -webkit-transform: rotateY(0) rotateX(0);
   }
 }
 
@@ -40,6 +47,8 @@
   transform-style: preserve-3d;
   z-index: -1;
   background-color: transparent;
+
+  -webkit-transform-style: preserve-3d;
 }
 
 .layer {
@@ -51,6 +60,8 @@
   transform: translateZ(var(--tz));
   box-shadow: 0 0 0.5em #000d inset;
   
+  -webkit-transform: translateZ(var(--tz));
+
   @for $i from 0 to 15 {
     &:nth-child(#{$i + 1}) {
       --tz: #{$i * - 2}px;
@@ -65,11 +76,15 @@
 @media (max-width: 1999px) {
   .card {
     transform: rotateY(20deg) rotateX(0);
+    -webkit-transform: rotateY(20deg) rotateX(0);
+
   }
 }
 @media (max-width: 767px) {
   .card {
     transform: rotateY(0) rotateX(0);
+    -webkit-transform: rotateY(0) rotateX(0);
+
   }
 }
 </style>
