@@ -3,7 +3,7 @@
   <section id="introduction">
     <div class="container px-4 px-md-5">
       <div class="row gx-0 gy-4 align-items-center justify-content-center justify-content-lg-between">
-        <div class="col-12 col-lg-5 order-3 order-lg-1 justify-content-center">
+        <div class="col-12 col-lg-5 order-3 order-lg-1 justify-content-center" data-aos="fade-right">
           <div class="position-relative ps-lg-5 speech-bubble-container">
             <div class="speech-bubble">
               <span>Welcome to the frontier of cognitive technology.</span>
@@ -11,11 +11,11 @@
                 <div v-for="index in Array(15)" class="layer"></div>
               </div>
             </div>
-            <img class="img-fluid d-block m-auto m-lg-0" src="/bot.png" alt="bot" />
+            <img class="img-fluid d-block m-auto m-lg-0" src="/bot.png" alt="bot"/>
           </div>
         </div>
         <div class="col-12 col-lg-1 order-2"></div>
-        <div class="col-12 col-lg-6 order-1 order-lg-3">
+        <div class="col-12 col-lg-6 order-1 order-lg-3" data-aos="fade-left">
           <div>
             <h2 class="display-5 lh-1 mb-4 text-center text-lg-start">
               Embark on a Cognitive Revolution
@@ -160,5 +160,12 @@
   .speech-bubble {
     left: 160px;
   }
+}
+
+
+@media (min-width: 1400px) {
+  aside, section {
+    padding-top: 10.8rem;
+  }  
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="card-container">
+  <div class="card-container" data-aos="fade-down">
     <div class="card">
       <slot></slot>
       <div class="layers">
@@ -65,6 +65,11 @@
 @media (max-width: 1999px) {
   .card {
     transform: rotateY(20deg) rotateX(0);
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    transform: rotateY(0) rotateX(0);
   }
 }
 </style>

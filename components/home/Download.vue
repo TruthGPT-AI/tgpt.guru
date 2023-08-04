@@ -1,7 +1,7 @@
 <template>
   <!-- App badge section-->
   <section class="set-width bg-gradient-primary-to-secondary" id="download">
-    <div class="container px-3 px-md-5">
+    <div class="container px-3 px-md-5" data-aos="zoom-in">
       <h2 class="text-center text-white font-alt mb-4">
         Join Us on This Exciting Journey
       </h2>

@@ -7,7 +7,7 @@
         alt="mid left decoration"
       />
     </div>
-    <div class="container position-relative z-1">
+    <div class="container position-relative z-1" data-aos="fade-right">
       <div class="row gx-5">
         <div class="col-12 col-xl-5">
           <div class="d-flex flex-column justify-content-center h-100">
@@ -19,7 +19,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-xl-7">
+        <div class="col-12 col-xl-7" data-aos="fade-right">
           <HomeChallengesChallengeList />>
         </div>
       </div>

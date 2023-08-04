@@ -1,11 +1,11 @@
 <template>
   <section id="features">
     <div class="container">
-      <h2 class="text-center display-5 lh-3">
+      <h2 class="text-center display-5 lh-3" data-aos="fade-down">
         Applications <br>
         From Personal to Universal
       </h2>
-      <div class="row gx-3 gy-5  mt-5">
+      <div class="row gx-3 gy-5 mt-2 mt-lg-5">
         <div class="col-12 col-md-6 col-xxl-3">
           <CommonCard>
             <h3 class="application-heading">Sovereign Cognitive <br> Extension</h3>
