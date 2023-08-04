@@ -7,7 +7,7 @@ export default defineNuxtPlugin(nuxtApp => {
 
     if (typeof window !== 'undefined') {
         $('.nav-link').click(() => {
-            if ($('.navbar-collapse collapse').hasClass('show'))
+            if ($('.navbar-collapse.collapse').hasClass('show'))
                 $('.navbar-toggler').click()
         })
     }
