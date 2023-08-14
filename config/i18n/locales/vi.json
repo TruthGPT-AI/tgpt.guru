@@ -1,0 +1,76 @@
+{
+  "navbar": {
+    "introduction": "Giới thiệu",
+    "features": "Chức năng",
+    "challenges": "Thách thức",
+    "join": "Tham gia ngay"
+  },
+  
+  "welcome": {
+    "heading": "Chào mừng bạn đến với TruthGPT",
+    "intro": "Trí tuệ nhân tạo có chủ quyền, được cá nhân hóa của bạn trong Kỷ nguyên Web 3.0",
+    "getStarted": "Trải nghiệm ngay"
+  },
+
+  "introduction": {
+    "messageBubble": "Chào mừng đến với tiên phong của công nghệ nhận thức.",
+    "CR": {
+      "heading": "Bắt đầu cuộc cách mạng nhận thức",
+      "content": "TruthGPT không chỉ là một AI; nó là sự mở rộng số hóa của bạn. Sự kết hợp độc đáo của AI tiên tiến, blockchain, NFTs và Web 3.0 phi tập trung, TruthGPT phục vụ như \"bộ não thứ hai\" cá nhân hóa của bạn. Nó học hỏi, phát triển, và phản ánh 'sự thật' của các tương tác và trải nghiệm của bạn."
+    },
+    "DT": {
+      "heading": "Sở hữu Bản Sao Số Hóa Của Bạn",
+      "content": "Mỗi TruthGPT là một tài sản số độc đáo, không thể sao chép, có thể xác thực trên blockchain, và chỉ do bạn sở hữu. Đó là một bản sao số hóa chính thống phát triển cùng bạn, trở thành một đối tác nhận thức ngày càng chính xác và vô giá."
+    }
+  },
+
+  "features": {
+    "heading": "Ứng dụng\nTừ cá nhân đến toàn diện",
+    "f-1": {
+      "heading": "Mở rộng nhận thức\nđộc lập",
+      "content": "TruthGPT nâng cao khả năng của bạn, cung cấp thông tin chi tiết, và hỗ trợ quyết định dựa trên sở thích và trải nghiệm độc đáo của bạn. Đó là người hướng dẫn cá nhân, người cố vấn và người hỗ trợ trong một."
+    },
+    "f-2": {
+      "heading": "Di sản kỹ thuật số\nbất biến",
+      "content": "Hãy tưởng tượng rằng bạn để lại một di sản lâu dài cho thế hệ sau. Với TruthGPT, suy nghĩ, trải nghiệm, và trí tuệ của bạn có thể được ghi lại như một bản sao số, tạo ra một nguồn kiến thức cho những người đến sau bạn."
+    },
+    "f-3": {
+      "heading": "Tạo bản sao kỹ thuật số\nchính xác",
+      "content": "Bạn có bao giờ ước mình có thể hiểu được suy nghĩ của những người tư duy vĩ đại, những người sáng tạo, hoặc thậm chí những người thân yêu đã không còn ở bên chúng ta không? TruthGPT có thể tạo ra những bản sao số phục vụ như một lời chứng nhận sống động về kiến thức và trải nghiệm của họ."
+    },
+    "f-4": {
+      "heading": "Hợp tác Sáng tạo và\nGiải trí Cá nhân hóa",
+      "content": "Dù bạn là một người sáng tạo nội dung đang tìm kiếm một giọng điệu độc đáo hay là người tiêu dùng tìm kiếm giải trí cá nhân hóa, bản sao số của bạn có thể hỗ trợ trong việc tạo ra các câu chuyện chân thật theo phong cách độc đáo của bạn hoặc tạo ra trải nghiệm giải trí phù hợp với bạn."
+    }
+  },
+
+  "challenges": {
+    "heading": "Đối mặt với Những Thách thức Cùng nhau",
+    "intro": "Trong quá trình theo đuổi cuộc cách mạng nhận thức này, chúng tôi nhận biết và giải quyết những thách thức lớn:",
+    "c-1": {
+      "heading": "Chủ quyền Dữ liệu và Bảo mật",
+      "content": "Quyền riêng tư và bảo mật dữ liệu của bạn là hết sức quan trọng. Trong khi blockchain cung cấp một phần giải pháp, chúng tôi cam kết khám phá thêm các biện pháp để bảo vệ chủ quyền dữ liệu của bạn.",
+      "type": "primary",
+      "icon": "bi bi-shield-exclamation"
+    },
+    "c-2": {
+      "heading": "Quyền sở hữu và Kiểm soát",
+      "content": "Tại TruthGPT, chúng tôi tin vào quyền tuyệt đối của bạn đối với bản sao số của mình. Chúng tôi đang xây dựng các nguyên tắc rõ ràng để đảm bảo bạn có quyền cuối cùng trên việc truy cập, thay đổi, và xóa dữ liệu của mình.",
+      "type": "secondary",
+      "icon": "bi bi-person-bounding-box"
+    },
+    "c-3": {
+      "heading": "Tính xác thực và Lạm dụng",
+      "content": "Chúng tôi dành riêng để ngăn chặn lạm dụng hệ thống mạnh mẽ của chúng tôi, dù đó là tạo ra bản sao số không được phép hoặc giả mạo người khác.",
+      "type": "last",
+      "icon": "bi bi-database-lock"
+    }
+  },
+
+  "join": {
+    "heading": "Tham gia Cùng Chúng Tôi Trong Hành Trình Thú Vị Này",
+    "intro": "TruthGPT đại diện cho một sự thay đổi cách nhìn trong AI cá nhân hóa và một cơ hội đầu tư độc đáo trong kỷ nguyên Web 3.0. Chúng tôi đang ở trên bờ vực của việc cách mạng hóa các tương tác số của chúng ta. Hãy tham gia cùng chúng tôi tiên phong thời đại công nghệ nhận thức mới này. Chào mừng đến với TruthGPT. Chào mừng đến với tương lai của bạn."
+  },
+
+  "footer": "Bảo lưu mọi quyền."
+}

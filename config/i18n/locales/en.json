@@ -1,0 +1,76 @@
+{
+  "navbar": {
+    "introduction": "Introduction",
+    "features": "Features",
+    "challenges": "Challenges",
+    "join": "Join us now"
+  },
+  
+  "welcome": {
+    "heading": "Welcome to TruthGPT",
+    "intro": "Your Personalized, Sovereign AI in the Web 3.0 Era",
+    "getStarted": "Get started today!"
+  },
+
+  "introduction": {
+    "messageBubble": "Welcome to the frontier of cognitive technology.",
+    "CR": {
+      "heading": "Embark on a Cognitive Revolution",
+      "content": "TruthGPT is not just an AI; it's a digital extension of you. A unique blend of advanced AI blockchain, NFTs, and the decentralized Web 3.0, TruthGPT serves as your personalized \"second brain.\" It learns, evolves, and reflects the 'truth' of your interactions and experiences."
+    },
+    "DT": {
+      "heading": "Own Your Digital Twin",
+      "content": "Each TruthGPT is a unique, non-replicable digital asset, verifiable on the blockchain, and solely owned by you. It's an authentic digital twin that evolves with you, becoming an increasingly accurate and invaluable cognitive companion."
+    }
+  },
+
+  "features": {
+    "heading": "Applications\nFrom Personal to Universal",
+    "f-1": {
+      "heading": "Sovereign Cognitive\nExtension",
+      "content": "TruthGPT amplifies your abilities, providing insights, and aiding decision making based on your unique preferences and experiences. It's your personalized tutor, mentor, and advisor rolled into one."
+    },
+    "f-2": {
+      "heading": "Immutable Digital\nLegacies",
+      "content": "Imagine leaving an enduring legacy for future generations. With TruthGPT, your thoughts, experiences, and wisdom can be immortalized as a digital twin, creating a reservoir of knowledge for those who come after you."
+    },
+    "f-3": {
+      "heading": "Authentic Digital\nTwinning",
+      "content": "Ever wished to tap into the minds of great thinkers, innovators, or even loved ones who are no longer with us? TruthGPT can create digital twins that serve as a living testament to their knowledge and experiences."
+    },
+    "f-4": {
+      "heading": "Creative Collaboration and\nPersonalized Entertainment",
+      "content": "Whether you're a content creator seeking a unique voice or a consumer looking for personalized entertainment, your digital twin can assist in creating authentic narratives in your unique style or generate tailored entertainment experiences."
+    }
+  },
+
+  "challenges": {
+    "heading": "Navigating Challenges Together",
+    "intro": "In our pursuit of this cognitive revolution, we acknowledge and address significant challenges:",
+    "c-1": {
+      "heading": "Data Sovereignty and Security",
+      "content": "Your data privacy and security are paramount. While blockchain provides part of the solution, we're committed to exploring further measures to safeguard your data sovereignty.",
+      "type": "primary",
+      "icon": "bi bi-shield-exclamation"
+    },
+    "c-2": {
+      "heading": "Ownership and Control",
+      "content": "At TruthGPT, we believe in your absolute right over your digital twin. We're establishing clear guidelines to ensure you have the final say on access, alteration, and deletion rights to your data.",
+      "type": "secondary",
+      "icon": "bi bi-person-bounding-box"
+    },
+    "c-3": {
+      "heading": "Authenticity and Misuse",
+      "content": "We're dedicated to preventing misuse of our powerful system, whether it's creating unauthorized digital twins or impersonating others.",
+      "type": "last",
+      "icon": "bi bi-database-lock"
+    }
+  },
+
+  "join": {
+    "heading": "Join Us on This Exciting Journey",
+    "intro": "TruthGPT represents a paradigm shift in personalized AI and a unique investment opportunity in the Web 3.0 era. We're at the cusp of revolutionizing our digital interactions. Join us in pioneering this new era of cognitive technology. Welcome to TruthGPT. Welcome to your future."
+  },
+
+  "footer": "All Rights Reserved."
+}

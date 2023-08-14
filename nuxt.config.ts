@@ -16,5 +16,23 @@ export default defineNuxtConfig({
       bodyAttrs: { id: 'page-top'},
     },
   },
-  css: ['/assets/styles/main.scss']
+  modules: [
+    '@nuxtjs/i18n',
+  ],
+  i18n: {
+    strategy: 'prefix_except_default',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US'
+      },
+      {
+        code: 'vi',
+        iso: 'vi-VN'
+      },
+    ],
+    defaultLocale: 'en',
+    vueI18n: './config/i18n/i18n.config.ts'
+  },
+  css: ['/assets/styles/main.scss'],
 })

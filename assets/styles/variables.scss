@@ -1,7 +1,8 @@
 :root {
   // Fonts
   --sans: "Soehne", system-ui, -apple-system, Helvetica Neue, Arial, sans-serif;
-  --serif: "Signifier", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  --serif: "Signifier", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --vi-serif: "Signifier", ui-serif, Cambria, "Times New Roman", Times, serif;
 
   // Color
   --primary-bg-color: #08031a;

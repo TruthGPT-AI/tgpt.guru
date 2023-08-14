@@ -12,10 +12,10 @@
         <div class="col-12 col-xl-5">
           <div class="d-flex flex-column justify-content-center h-100">
             <h2 class="text-center text-xl-start display-5 lh-3">
-              Navigating Challenges Together
+              {{ $t('challenges.heading') }}
             </h2>
-            <p class="text-center text-xl-start lead fw-normal text-muted mb-5 px-4 px-md-0" lang="en">
-              In our pursuit of this cognitive revolution, we acknowledge and address significant challenges:
+            <p class="text-center text-xl-start lead fw-normal text-muted mb-5 px-4 px-md-0" :lang="locale">
+              {{ $t('challenges.intro') }}
             </p>
           </div>
         </div>
@@ -26,6 +26,11 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { useI18n } from '#imports'
+const {locale} = useI18n()
+</script>
 
 <style lang="scss">
 $primary: #3aaaf3;

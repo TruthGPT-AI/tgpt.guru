@@ -1,11 +1,13 @@
 body {
   overflow-x: hidden;
   width: 100vw;
+  white-space: pre-line;
 }
 
 p, span, a, button, input, select {
   font-family: var(--sans);
 }
+
 
 p:not(.text-center), span {
   text-align: justify;
@@ -13,6 +15,12 @@ p:not(.text-center), span {
 
 h1, h2, h3, h4, h5 {
   font-family: var(--serif);
+}
+
+.vi {
+  h1, h2, h3, h4, h5 {
+    font-family: var(--vi-serif);
+  }
 }
 
 aside, section {

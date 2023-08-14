@@ -6,7 +6,7 @@
         <div class="col-12 col-lg-5 order-3 order-lg-1 justify-content-center" data-aos="fade-right">
           <div class="position-relative ps-lg-5 speech-bubble-container">
             <div class="speech-bubble">
-              <span>Welcome to the frontier of cognitive technology.</span>
+              <span>{{ $t('introduction.messageBubble') }}</span>
               <div class="layers">
                 <div v-for="index in Array(15)" class="layer"></div>
               </div>
@@ -18,23 +18,18 @@
         <div class="col-12 col-lg-6 order-1 order-lg-3" data-aos="fade-left">
           <div>
             <h2 class="display-5 lh-1 mb-4 text-center text-lg-start">
-              Embark on a Cognitive Revolution
+              {{ $t('introduction.CR.heading') }}
             </h2>
-            <p class="lead fw-normal text-muted mb-5 mb-lg-0" lang="en">
-              TruthGPT is not just an AI; it's a digital extension of you.
-              A unique blend of advanced AI blockchain, NFTs, and the decentralized Web 3.0, TruthGPT serves as your
-              personalized "second brain." It learns, evolves, and reflects the 'truth' of your interactions and
-              experiences.
+            <p class="lead fw-normal text-muted mb-5 mb-lg-0" :lang="locale">
+              {{ $t('introduction.CR.content') }}
             </p>
           </div>
           <div class="mt-5">
             <h2 class="display-5 lh-1 mb-4 text-center text-lg-start">
-              Own Your Digital Twin
+              {{ $t('introduction.DT.heading') }}
             </h2>
-            <p class="lead fw-normal text-muted mb-5 mb-lg-0" lang="en">
-              Each TruthGPT is a unique, non-replicable digital asset, verifiable 
-              on the blockchain, and solely owned by you. It's an authentic digital twin that evolves with you,
-              becoming an increasingly accurate and invaluable cognitive companion.
+            <p class="lead fw-normal text-muted mb-5 mb-lg-0" :lang="locale">
+              {{ $t('introduction.DT.content') }}
             </p>
           </div>
         </div>
@@ -42,6 +37,11 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { useI18n } from '#imports'
+const {locale} = useI18n()
+</script>
 
 <style scoped lang="scss">
 

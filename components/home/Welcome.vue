@@ -14,14 +14,14 @@
           <!-- Mashead text and app badges-->
           <div class="mb-5 mb-lg-0 text-center text-lg-start">
             <h1 class="display-1 lh-1 mb-3">
-              Welcome to TruthGPT
+              {{ $t('welcome.heading') }}
             </h1>
-            <p class="lead fw-normal text-muted mb-5 text-center text-lg-start" lang="en">
-              Your Personalized, Sovereign AI in the Web 3.0 Era
+            <p class="lead fw-normal text-muted mb-5 text-center text-lg-start" :lang="locale">
+              {{ $t('welcome.intro') }}
             </p>
 
             <a class="btn btn-outline-primary py-2 pe-lg-5">
-              Getting started today!
+              {{ $t('welcome.getStarted') }}
               <i class="bi bi-arrow-right"></i>
             </a>
 
@@ -67,7 +67,7 @@
                   <!-- * * Set the max width of your media to 100% and the height to-->
                   <!-- * * 100% like the demo example below.-->
                   <video :muted="true" :autoplay="true" :loop="true" style="max-width: 100%; height: 100%">
-                    <source src="/assets/images/demo-screen.mp4" type="video/mp4" />
+                    <source src="/demo-screen.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
@@ -79,6 +79,10 @@
   </section>
 </template>
 
+<script setup>
+import { useI18n } from '#imports'
+const {locale} = useI18n()
+</script>
 
 <style scoped>
 .masthead {
