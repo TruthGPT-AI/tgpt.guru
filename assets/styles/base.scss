@@ -1,7 +1,6 @@
 body {
   overflow-x: hidden;
   width: 100vw;
-  white-space: pre-line;
 }
 
 p, span, a, button, input, select {
@@ -49,6 +48,10 @@ section.cta:before {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.app {
+  white-space: pre-line;
 }
 
 .bg-gradient-primary-to-secondary {
