@@ -3,6 +3,23 @@ body {
   width: 100vw;
 }
 
+@media (min-width: 992px) {
+  body::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: var(--primary-bg-color);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    // background-color: transparent; /* opacity: 0; should do the thing either */
+    background-image: var(--gradient-bg);
+    // box-shadow: 0px 0px 0px 100000vh black;
+    border-radius: 8px;
+  }
+}
+
 p, span, a, button, input, select {
   font-family: var(--sans);
 }

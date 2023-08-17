@@ -55,9 +55,9 @@
           </li>
         </ul>
 
-        <div class="header-languages-change dropdown">
+        <div class="header-languages-change dropdown mb-3 mb-lg-0">
           <div
-            class="languages-change__label dropdown-toggle text-white me-4"
+            class="languages-change__label dropdown-toggle text-white me-4 "
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"

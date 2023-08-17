@@ -10,5 +10,10 @@ export default defineNuxtPlugin(nuxtApp => {
             if ($('.navbar-collapse.collapse').hasClass('show'))
                 $('.navbar-toggler').click()
         })
+
+        $('.languages-list.dropdown-menu a').click(() => {
+            if ($('.navbar-collapse.collapse').hasClass('show'))
+                $('.navbar-toggler').click()
+        })
     }
 })
