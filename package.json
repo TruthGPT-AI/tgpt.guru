@@ -12,7 +12,8 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.0.0-rc.2",
     "@types/node": "^18.16.19",
-    "nuxt": "^3.6.3"
+    "nuxt": "^3.6.3",
+    "nuxt-simple-sitemap": "^3.1.7"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",

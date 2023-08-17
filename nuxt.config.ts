@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    'nuxt-simple-sitemap',
     '@nuxtjs/i18n',
   ],
   i18n: {
@@ -27,12 +28,16 @@ export default defineNuxtConfig({
         iso: 'en-US'
       },
       {
+
         code: 'vi',
         iso: 'vi-VN'
       },
     ],
     defaultLocale: 'en',
     vueI18n: './config/i18n/i18n.config.ts'
+  },
+  site: {
+    url: 'https://tgpt.guru',
   },
   css: ['/assets/styles/main.scss'],
 })
